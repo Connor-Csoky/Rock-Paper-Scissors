@@ -14,3 +14,9 @@
     box-shadow: 3px 3px tan, -1em 0 .4em gray;
     margin: 0;
 }
+.ai {
+    overflow: hidden;
+}
+.rPS {
+    width: 50px;
+}
