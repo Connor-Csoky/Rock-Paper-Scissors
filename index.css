@@ -1,0 +1,16 @@
+.head {
+    text-align: center;
+}
+.divHolder {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+.p1, .ai {
+    width: 400px;
+    padding: 10px;
+    height: 20rem;
+    border: 5px solid gray;
+    box-shadow: 3px 3px tan, -1em 0 .4em gray;
+    margin: 0;
+}
