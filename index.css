@@ -10,6 +10,8 @@ html {
     justify-content: space-around;
 }
 .p1, .ai {
+    display: flex;
+    justify-content: center;
     width: 400px;
     padding: 10px;
     height: 20rem;
@@ -36,5 +38,5 @@ html {
     width: 70px;
 }
 .rPS {
-    width: 50px;
+    width: auto;
 }
