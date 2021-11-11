@@ -17,17 +17,23 @@ body {
 .head {
     text-align: center;
 }
+h1 {
+    color: red;
+}
 .divHolder {
     display: flex;
     width: 100%;
     justify-content: space-around;
 }
 .p1, .ai {
+    display: flex;
+    justify-content: center;
     width: 400px;
     padding: 10px;
     height: 20rem;
     border: 5px solid gray;
-    box-shadow: 3px 3px tan, -1em 0 .4em gray;
+    border-radius: 100px;
+    box-shadow: 3px 3px silver, -1em 0 .4em rgb(253, 173, 173);
     margin: 0;
     background-color: white;
 }
@@ -36,7 +42,6 @@ body {
 }
 .buttons {
     text-align: center;
-    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -53,5 +58,11 @@ body {
     box-shadow: 1px 1px 10px black;
 }
 .rPS {
-    width: 50px;
+    width: auto;
+}
+.wrap:hover {
+    background-color: pink;
+}
+.wrap:active {
+    box-shadow: 1px 1px 5px black;
 }
