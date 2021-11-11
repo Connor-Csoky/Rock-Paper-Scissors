@@ -4,24 +4,27 @@
         <title>Rock Paper Scissors</title>
         <link rel="stylesheet" href="index.css">
     </head>
-    <body>
-        <header class="head">
-            <h1>Rock Paper Scissors</h1>
-            <div class="divHolder">
-                <h3>Player 1 Score: <span id="p1-score">0</span></h3>
-                <h3>AI Score: <span id="p2-score">0</span></h3>
+    <body> 
+            <div class="box">
+                <header class="head">
+                    <h1>Rock Paper Scissors</h1>
+                    <div class="divHolder">
+                        <h3>Player 1 Score: <span id="p1-score">0</span></h3>
+                        <h3>AI Score: <span id="p2-score">0</span></h3>
+                    </div>
+                    <h3>Tie: <span id="tie">0</span></h3>
+                </header>
+                <div class="divHolder">
+                    <div class="p1"></div>
+                    <div class="ai"></div>
+                </div>
+                <div class="buttons">
+                    <button onclick="rock()" class= "wrap">Rock</button>
+                    <button onclick="paper()" class= "wrap">Paper</button>
+                    <button onclick="scissor()" class= "wrap">Scissor</button>
+                </div>
             </div>
-            <h3>Tie: <span id="tie">0</span></h3>
-        </header>
-        <div class="divHolder">
-            <div class="p1"></div>
-            <div class="ai"></div>
-        </div>
-        <div class="buttons">
-            <button onclick="rock()" class= "wrap">Rock</button>
-            <button onclick="paper()" class= "wrap">Paper</button>
-            <button onclick="scissor()" class= "wrap">Scissor</button>
-        </div>
         <script src="index.js"></script>
+        
     </body>
 </html>

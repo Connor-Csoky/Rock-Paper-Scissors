@@ -1,5 +1,18 @@
-html {
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+}
+.box {
     background-color: lightgray;
+    padding: 2rem;
+    margin: 2rem;
+    height: 100%;
+    border: 10px solid black;
 }
 .head {
     text-align: center;
@@ -26,14 +39,18 @@ html {
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    width: 100%;
 }
 .wrap {
     margin-left: 2%;
     margin-top: 2rem;
-    border-radius: 50px;
-    height: 70px;
-    width: 70px;
+    border-radius: 50%;
+    height: 8.125rem;
+    width: 8.125rem;
+    background-color: rgb(253, 74, 74);
+    color: white;
+    box-shadow: 1px 1px 10px black;
 }
 .rPS {
     width: 50px;
