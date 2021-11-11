@@ -4,14 +4,13 @@
     box-sizing: border-box;
 }
 
-.section {
+body {
     background-color: gray;
-    padding: 2rem;
-    height: 100vh;
 }
 .box {
     background-color: lightgray;
     padding: 2rem;
+    margin: 2rem;
     height: 100%;
     border: 10px solid black;
 }
@@ -46,15 +45,14 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-top: 4rem;
     width: 100%;
 }
 .wrap {
     margin-left: 2%;
     margin-top: 2rem;
     border-radius: 50%;
-    height: 130px;
-    width: 130px;
+    height: 8.125rem;
+    width: 8.125rem;
     background-color: rgb(253, 74, 74);
     color: white;
     box-shadow: 1px 1px 10px black;
