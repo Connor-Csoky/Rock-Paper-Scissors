@@ -1,25 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.section {
-    background-color: gray;
-    padding: 2rem;
-    height: 100vh;
-}
-.box {
+html {
     background-color: lightgray;
-    padding: 2rem;
-    height: 100%;
-    border: 10px solid black;
 }
 .head {
     text-align: center;
-}
-h1 {
-    color: red;
 }
 .divHolder {
     display: flex;
@@ -33,8 +16,7 @@ h1 {
     padding: 10px;
     height: 20rem;
     border: 5px solid gray;
-    border-radius: 100px;
-    box-shadow: 3px 3px silver, -1em 0 .4em rgb(253, 173, 173);
+    box-shadow: 3px 3px tan, -1em 0 .4em gray;
     margin: 0;
     background-color: white;
 }
@@ -43,28 +25,18 @@ h1 {
 }
 .buttons {
     text-align: center;
+    height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    padding-top: 4rem;
-    width: 100%;
+    justify-content: center;
 }
 .wrap {
     margin-left: 2%;
     margin-top: 2rem;
-    border-radius: 50%;
-    height: 130px;
-    width: 130px;
-    background-color: rgb(253, 74, 74);
-    color: white;
-    box-shadow: 1px 1px 10px black;
+    border-radius: 50px;
+    height: 70px;
+    width: 70px;
 }
 .rPS {
     width: auto;
-}
-.wrap:hover {
-    background-color: pink;
-}
-.wrap:active {
-    box-shadow: 1px 1px 5px black;
 }
