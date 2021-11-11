@@ -8,11 +8,6 @@ var aiDecision = 0
 
 function rock() {
     let p1 = document.querySelector(".p1")
-    let ai = document.querySelector(".ai")
-    if (p1.childNodes.length >= 1){
-        p1.innerHTML="";
-        ai.innerHTML="";
-    }
     let img2 = document.createElement('img')
     img2.classList.add('rPS')
     img2.src = "https://images.squarespace-cdn.com/content/v1/5b34dbcd5417fcc01fc06032/1555440983544-SEOWD5K1NG925KTRF3OM/ROCK+HAND.png?format=2500w"
@@ -27,14 +22,9 @@ function rock() {
 function paper() {
 
     let p1 = document.querySelector(".p1")
-    let ai = document.querySelector(".ai")
-    if (p1.childNodes.length >= 1){
-        p1.innerHTML="";
-        ai.innerHTML="";
-    }
     let img2 = document.createElement('img')
     img2.classList.add('rPS')
-    img2.src = "https://seekicon.com/free-icon-download/hand-paper_1.svg"
+    img2.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZ6LtTWWMrUMo7IZKvzqePsffsh7igiR8mxYmVU1lPYcRp98CUwiZcpLWUbhdGrZ6aAo&usqp=CAU"
     p1.append(img2)
     decision = 2
 
@@ -45,12 +35,8 @@ function paper() {
 
 
 function scissor() {
+
     let p1 = document.querySelector(".p1")
-    let ai = document.querySelector(".ai")
-    if (p1.childNodes.length >= 1){
-        p1.innerHTML="";
-        ai.innerHTML="";
-    }
     let img2 = document.createElement('img')
     img2.classList.add('rPS')
     img2.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTW5wKIpKA6XPGU6wM5SIHSu411EK4DQrpKpQ&usqp=CAU"
@@ -59,7 +45,6 @@ function scissor() {
 
     aiChoice()
     checkWins()
-
 }
 
 function aiChoice() {
@@ -76,7 +61,7 @@ function aiChoice() {
         let ai = document.querySelector('.ai')
         let img = document.createElement('img')
         img.classList.add("rPS")
-        img.src = "https://seekicon.com/free-icon-download/hand-paper_1.svg"
+        img.src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEZ6LtTWWMrUMo7IZKvzqePsffsh7igiR8mxYmVU1lPYcRp98CUwiZcpLWUbhdGrZ6aAo&usqp=CAU"
         ai.append(img)
         aiDecision = 2
     }
